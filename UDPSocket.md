@@ -1,8 +1,5 @@
-
-
-
-
 #UDPClient.py
+
 1. Import the socket package, then declare the server-name and port, caution that do not use `str` as port instead of `integer`.
 2. Now create client socket, `socket (int af, int type, int protocol)` The af parameter specifies the protocol's address family, which determines what type of socket will be created. `AF_INET` uses IPV4
 The type parameter is the protocol's communication type, and can be either `SOCK_STREAM` or `SOCK_DGRAM`. To create a TCP connection-oriented socket, use `SOCK_STREAM`. When creating a connectionless UDP socket, use SOCK_DGRAM
@@ -19,7 +16,9 @@ Run UDPServer.py before UDPClient.py please.
 
 
 #UDPServer.py
+
 After declaring server port and creating socket, `bind()` method bind the server  to socket.
+
 `while` loop receives and packets from client infinitely.
 
 
