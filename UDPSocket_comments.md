@@ -1,4 +1,4 @@
-#UDPClient.py
+#UDPClient
 
 1. 
 Import the socket package, then 
