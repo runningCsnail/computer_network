@@ -9,12 +9,9 @@ The type parameter is the protocol's communication type, and can be either `SOCK
 4. The `recvfrom()` method Python's socket class, reads a number of bytes sent from an UDP socket. Like `sendto()` , the `recvfrom()` method as well is to be called on a UDP socket. Unlike `sendto()`, the method `recvfrom()` does not take an IP address and port as a parameter.
 5.print and close.
 6. Problems reference
-
 https://stackoverflow.com/questions/2582036/an-existing-connection-was-forcibly-closed-by-the-remote-host?rq=1
-
-https://stackoverflow.com/questions/46223078/c-sharp-httpclient-an-existing-connection-was-forcibly-closed-by-the-remote-host?noredirect=1&lq=1
-
-Run UDPServer.py before UDPClient.py please.
+https://stackoverflow.com/questions/46223078/c-sharp-httpclient-an-existing-connection-was-forcibly-closed-by-the-remote-host?noredirect=1&lq=1Run 
+UDPServer.py before UDPClient.py please.
 
 
 
