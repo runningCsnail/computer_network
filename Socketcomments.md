@@ -21,6 +21,8 @@ After declaring server port and creating socket, `bind()` method bind the server
 
 `while` loop receives and packets from client infinitely.
 
+#TCP
+Read TCP .py files
 
 
 
